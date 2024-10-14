@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea53c18b7745f84cb633c3e3171d768, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: 
+  bulletType: Basic
+  bulletTag: PlayerBullet
+  bulletSprite: {fileID: 1322467613, guid: 618bf9f59f65f504ebd66f6c4016fe79, type: 3}
+  stopAtTarget: 0
+  infiniteAmmo: 1
+  ammoPoolSize: 25
+  bulletLifetime: 15
+  bulletSpeed: 12.5
+  bulletDamage: 5
+  fireRate: 0.5
+  explosionRadious: 0
+  explosionPrefab: {fileID: 0}
