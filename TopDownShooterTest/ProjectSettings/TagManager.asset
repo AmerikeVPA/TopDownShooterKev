@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hazard
   - PlayerBullet
+  - Coin
   layers:
   - Default
   - TransparentFX

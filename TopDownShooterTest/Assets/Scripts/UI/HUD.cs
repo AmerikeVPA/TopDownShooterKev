@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    public TextMeshProUGUI specialAmmoCounter;
+    public TextMeshProUGUI specialAmmoCounter, waveCounter, coinCounter;
     public Slider healthBar, shieldBar;
 
     public void ShowAmmoCounter(int ammoAvailable, int maxAmmo)
@@ -17,5 +17,13 @@ public class HUD : MonoBehaviour
     {
         Slider barToUse = useHealth ? healthBar : shieldBar;
         barToUse.value = currentValue / maxValue;
+    }
+    public void ShowCoinCount(int coinsAvailable)
+    {
+        coinCounter.text = $"Coins: {coinsAvailable}";
+    }
+    public void ShowWaveCount(int wave)
+    {
+        waveCounter.text = wave.ToString();
     }
 }

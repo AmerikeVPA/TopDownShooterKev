@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public HealthSystem playerHealth;
     public UIController uiController;
 
-    private int _wave = 0, score = 0;
+    private int _wave = 1, score = 0;
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         enemyManager.StartWave();
-        uiController.ResumeGame();
+        uiController.ResumeGame(_wave);
     }
     public void EndWave()
     {
@@ -35,6 +35,6 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0.0f;
-        uiController.ShowGameOver(score);
+        uiController.ShowGameOver(score, _wave);
     }
 }

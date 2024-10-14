@@ -8,6 +8,6 @@ public class EconomySystem : MonoBehaviour
 
     public void AddCoin()
     {
-        uIController.coins++;
+        uIController.AddCoin();
     }    
 }

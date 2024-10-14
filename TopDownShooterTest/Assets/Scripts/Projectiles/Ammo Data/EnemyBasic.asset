@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletType: Enemy Basic
   bulletTag: Hazard
-  bulletSprite: {fileID: -946420934, guid: 618bf9f59f65f504ebd66f6c4016fe79, type: 3}
+  bulletSprite: {fileID: -297934383, guid: 618bf9f59f65f504ebd66f6c4016fe79, type: 3}
   stopAtTarget: 0
   infiniteAmmo: 1
   ammoPoolSize: 25
